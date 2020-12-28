@@ -1,0 +1,8 @@
+config.*
+node_modules
+build/
+.next/
+.env
+.vscode
+.vs
+public.
