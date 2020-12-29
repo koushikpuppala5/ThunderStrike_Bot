@@ -45,7 +45,7 @@ These api keys are not required for the bot to function. Only required for their
 
 ## Usage
 
-1. Clone the repo: `git clone https://github.com/Dev-CasperTheGhost/ghostybot`
+1. Clone the repo: `git clone https://github.com/koushikpuppala5/ThunderStrike_Bot`
 2. Install all dependencies: `npm install`
 3. Rename `config.example.json` to `config.json`: `mv config.example.json config.json`
 4. Create a bot at [Discord Developers](https://discord.com/developers/applications)

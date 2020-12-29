@@ -1,7 +1,7 @@
-# Ghostybot Command list
+# Thunder Strike Command list
 
-This command list was automatically generated in [this file](https://github.com/Dev-CasperTheGhost/ghostybot/tree/main/src/scripts/generateCommandList.js).
-GhostyBot has a total of 209 commands.
+This command list was automatically generated in [this file](https://github.com/koushikpuppala5/ThunderStrike_Bot/blob/master/src/scripts/generateCommandList.js).
+Thunder Strike has a total of 209 commands.
 
 Click any of the command names for more information
 
