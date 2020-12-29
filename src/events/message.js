@@ -38,7 +38,7 @@ module.exports = {
     const ignoredChannels = guild?.ignored_channels;
     if (ignoredChannels.includes(message.channel.id)) return;
 
-    const escapeRegex = (str) => str.replace(/[!*+?^${}()|[\]\\]/g, "\\$&");
+    const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const serverPrefix = guild.prefix;
     const prefix = new RegExp(`^(<@!?${bot.user.id}>|${escapeRegex(serverPrefix)})\\s*`);
 
