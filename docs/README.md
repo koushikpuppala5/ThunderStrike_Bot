@@ -4,6 +4,8 @@
 - [Installation](INSTALLATION.md)
   - [Requirements](INSTALLATION.md#requirements)
   - [Usage](INSTALLATION.md#usage)
+  - [Api keys](INSTALLATION.md#api-keys)
+  - [Config](INSTALLATION.md#config)
 - Contributing
   - [Guide](CONTRIBUTING.md)
   - [Command Example](COMMAND_OPTIONS.md)
@@ -12,8 +14,8 @@
 
 # Links
 
-[![Add ghostybot](../.github/add-to-discord.png)](https://discord.com/oauth2/authorize?client_id=632843197600759809&scope=bot&permissions=8)
-[![Ghostybot Support server](../.github/join-support-server.png)](https://discord.gg/XxHrtkA)
+[![Add Thunder Strike](../.github/add-to-discord.png)](https://discord.com/oauth2/authorize?client_id=632843197600759809&scope=bot&permissions=1945632119)
+[![Thunder Strike Support server](../.github/join-support-server.png)](https://discord.gg/SgCABjZ3cy)
 
 ##
 

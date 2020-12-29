@@ -4,9 +4,9 @@
 
 **Only required if self-hosted/wanting to contribute**
 
-[Invite GhostyBot here](https://discord.com/oauth2/authorize?client_id=632843197600759809&scope=bot&permissions=8)
+[Invite Thunder Strike here](https://discord.com/oauth2/authorize?client_id=632843197600759809&scope=bot&permissions=1945632119)
 
-How to install Ghostybot on your machine
+How to install Thunder Strike on your machine
 
 ### Requirements
 
@@ -23,7 +23,7 @@ How to install Ghostybot on your machine
 4. Create a bot at [Discord Developers](https://discord.com/developers/applications)
 5. Copy your token and paste into `config.json`
 6. Run the bot: `npm start`
-   - Using pm2: `pm2 start src/index.js --name ghostybot`
+   - Using pm2: `pm2 start src/index.js --name Thunder Strike`
 
 ## Command options
 

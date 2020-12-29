@@ -3,17 +3,19 @@ const Logger = require("../modules/Logger");
 module.exports = {
   name: "ready",
   execute(bot) {
-    const serverCount = bot.guilds.cache.size;
-    const channelCount = bot.channels.cache.size;
-    const userCount = bot.users.cache.size;
+    const serverCount = bot.formatNumber(bot.guilds.cache.size);
+    const channelCount = bot.formatNumber(bot.channels.cache.size);
+    const userCount = bot.formatNumber(bot.users.cache.size);
     const statuses = [
       ` ${serverCount} servers.`,
       `help || ${channelCount} channels`,
-      `${userCount} users`,
+      `${userCount} users`
     ];
 
     require("../helpers/unmuteHelper")(bot);
     require("../helpers/reminderHelper")(bot);
+    require("../modules/features")(bot);
+
 
     Logger.log(
       "bot",

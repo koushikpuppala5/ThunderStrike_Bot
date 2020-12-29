@@ -1,0 +1,24 @@
+{
+    "dev": false,
+    "token": "",
+    "owners": [],
+    "imdbKey": "",
+    "reportsChannelId": "",
+    "openWeatherMapKey": "",
+    "feedBackChannelId": "",
+    "mongodbUri": "",
+    "giphyApiKey": "",
+    "errorLogsChannelId": "",
+    "alexflipnoteKey": "",
+    "dashboard": {
+        "enabled": true,
+        "botName": "Thunder Strike",
+        "discordApiUrl": "https://discordapp.com/api/v8/",
+        "jwtSecret": "",
+        "clientId": "",
+        "clientSecret": "",
+        "callbackUrl": "YOUR_URL + /api/auth/callback",
+        "dashboardUrl": "http://localhost:3030",
+        "port": 3030
+    }
+}

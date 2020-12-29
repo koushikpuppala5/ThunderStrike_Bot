@@ -2,7 +2,7 @@ const BaseEmbed = require("../../modules/BaseEmbed");
 const { formatDate } = require("../../utils/functions");
 
 module.exports = {
-  name: "channelInfo",
+  name: "channelinfo",
   description: "Get information about a channel",
   category: "util",
   aliases: ["channel"],

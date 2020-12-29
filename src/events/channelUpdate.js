@@ -6,28 +6,20 @@ module.exports = {
     if (!oldChannel.guild) return;
     const webhook = await bot.getWebhook(newChannel.guild);
     if (!webhook) return;
+    const lang = await bot.getGuildLang(newChannel.guild.id);
 
     let msg = "";
-    const type = oldChannel.type;
-
-    if (type === "category") {
-      if (oldChannel.name !== newChannel.name) {
-        msg = `Category **${newChannel}** was updated from \`${oldChannel.name}\` to \`${newChannel.name}\``;
-      } else {
-        return;
-      }
+    const type = newChannel.type === "category" ? "Category" : "Channel";
+    if (oldChannel.name !== newChannel.name) {
+      msg = lang.EVENTS.CHANNEL_RENAME_MSG.replace("{channel_type}", type)
+        .replace("{channel}", oldChannel.name)
+        .replace("{new_channel}", newChannel.name);
     } else {
-      if (oldChannel.name !== newChannel.name) {
-        msg = `Channel **${oldChannel.name}** was renamed to ${newChannel}`;
-      } else if (oldChannel.topic !== newChannel.topic) {
-        msg = `Channel topic in channel ${newChannel} was updated from \`${oldChannel.topic}\` to \`${newChannel.topic}\``;
-      } else {
-        return;
-      }
+      return;
     }
 
     const embed = new MessageEmbed()
-      .setTitle("Channel Updated")
+      .setTitle(lang.EVENTS.CHANNEL_RENAME)
       .setDescription(msg)
       .setColor("ORANGE")
       .setTimestamp();

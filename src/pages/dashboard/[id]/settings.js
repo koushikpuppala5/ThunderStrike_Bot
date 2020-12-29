@@ -25,6 +25,9 @@ const Settings = ({ guild, languages, isAuth }) => {
   const [autoDelCmd, setAutoDelCmd] = useState(guild.auto_delete_cmd || "");
   const [ticketRole, setTicketRole] = useState(guild.ticket_role || "");
   const [ticketParentChannel, setTicketParentChannel] = useState(guild.ticket_parent_channel || "");
+  const [memberCountChannelId, setMemberCountChannelId] = useState(
+    guild.member_count_channel_id || ""
+  );
   const router = useRouter();
 
   useEffect(() => {
@@ -143,6 +146,14 @@ const Settings = ({ guild, languages, isAuth }) => {
       ],
       label: "Auto delete commands",
     },
+    {
+      type: "select",
+      id: "member_count_channel_id",
+      value: memberCountChannelId,
+      onChange: (e) => setMemberCountChannelId(e.target.value),
+      data: guild.voice_channels,
+      label: "Member count channel Id (bot needs 'Manage Channel' permissions for this channel)",
+    },
   ];
 
   async function onSubmit(e) {
@@ -183,7 +194,7 @@ const Settings = ({ guild, languages, isAuth }) => {
   return (
     <>
       <Head>
-        <title>{guild?.name} - Settings / GhostyBot Dashboard</title>
+        <title>{guild?.name} - Settings / {dashboard.botName} Dashboard</title>
       </Head>
       <div className="page-title">
         <h4>{guild?.name} - Settings</h4>

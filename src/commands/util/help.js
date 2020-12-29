@@ -6,7 +6,7 @@ module.exports = {
   name: "help",
   description: "Shows all commands Or shows more info about a command",
   category: "util",
-  cooldown: 60,
+  cooldown: 2,
   usage: "h <category name | command name>",
   aliases: ["h", "info", "commands"],
   async execute(bot, message, args) {

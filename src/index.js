@@ -32,7 +32,6 @@ app.get("/dreams", (request, response) => {
 const listener = app.listen(process.env.PORT, () => {
   console.log("Your app is listening on port " + listener.address().port);
 });
-
 require("./utils/checkValid")();
 require("./utils/database");
 const NekoClient = require("nekos.life");
@@ -43,6 +42,7 @@ const { Collection, Client } = require("discord.js");
 const { token, imdbKey, alexflipnoteKey, dashboard, dev } = require("../config.json");
 const MongoGiveawayManager = require("./modules/GiveawayManager");
 const { Player } = require("discord-player");
+const logs = require("discord-logs");
 const {
   findMember,
   getGuildLang,
@@ -64,6 +64,7 @@ const bot = new Client({
   partials: ["GUILD_MEMBER", "MESSAGE", "USER", "REACTION"],
   restRequestTimeout: 25000,
 });
+logs(bot);
 
 [
   findMember,
@@ -85,11 +86,15 @@ bot.logger = Logger;
 bot.commands = new Collection();
 bot.aliases = new Collection();
 bot.cooldowns = new Collection();
-bot.player = new Player(bot);
+bot.player = new Player(bot, {
+  autoSelfDeaf: true,
+});
 bot.afk = new Map();
 bot.neko = new NekoClient();
 bot.tnai = new TnaiClient();
-bot.imdb = new imdb.Client({ apiKey: imdbKey });
+if (imdbKey) {
+  bot.imdb = new imdb.Client({ apiKey: imdbKey });
+}
 if (alexflipnoteKey) {
   bot.alexClient = new AlexClient(alexflipnoteKey);
 }
@@ -100,6 +105,7 @@ Promise.config({
 });
 
 const giveawayManager = new MongoGiveawayManager(bot, {
+  hasGuildMembersIntent: true,
   storage: false,
   updateCountdownEvery: 10000,
   DJSlib: "v12",

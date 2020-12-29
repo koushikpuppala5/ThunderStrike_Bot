@@ -1,8 +1,8 @@
-config.*
+config.json
 node_modules
 build/
 .next/
 .env
+.DS_STORE
 .vscode
-.vs
-public.
+
