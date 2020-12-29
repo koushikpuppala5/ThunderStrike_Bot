@@ -1,4 +1,4 @@
-# GhostyBot Docs - Index
+# Thunder Strike Docs - Index
 
 - [Add translation](TRANSLATE.md)
 - [Installation](INSTALLATION.md)
@@ -19,4 +19,4 @@
 
 ##
 
-[Return to Readme](https://github.com/dev-caspertheghost/ghostybot)
+[Return to Readme](https://github.com/koushikpuppala5/ThunderStrike_Bot)
