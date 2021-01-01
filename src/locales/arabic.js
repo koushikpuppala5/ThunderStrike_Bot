@@ -138,7 +138,7 @@ module.exports = {
     VOLUME: "الصوت",
     PROVIDE_SEARCH: "الرجاء تقديم استعلام بحث",
     ADDED_TO_QUEUE: "{song} has been added to the queue",
-    ADDED_PL_TO_QUEUE: "Playlist add to queue ({length} songs)",
+    ADDED_PL_TO_QUEUE: "Playlist: {name} was added to queue ({length} songs)",
     PROVIDER_NOT_SUPP: "That provider is not supported",
     NOW_PLAYING: "جاري التشغيل:",
     REQUESTED_BY: "بواسطة",
@@ -352,7 +352,7 @@ module.exports = {
     DASHBOARD: "Dashboard",
     DEVELOPER: "Developer",
     CONTRIBUTORS: "Contributors",
-    INVITE_BOT: "Invite bot"
+    INVITE_BOT: "Invite bot",
   },
   CONFIG: {
     OPTION_CMD_WORK: " يجب توفير{option} ، لكي يعمل هذا الأمر",
@@ -498,7 +498,8 @@ module.exports = {
     NUKE_CANCELED: "Nuke command was canceled",
     NUKE_CONFIRM: "Are you sure you want to nuke this channel? y/n",
     TEXT_OR_VALID_CHANNEL: "Please provide text or a valid channel!",
-    DEFAULT_ANNOUNCE_CHANNEL: "You can also set a default channel using `set announce-channel <channel mention>`",
+    DEFAULT_ANNOUNCE_CHANNEL:
+      "You can also set a default channel using `set announce-channel <channel mention>`",
     OPTION_DOES_NOT_EXIST: "{option} does not exist",
     PROVIDE_COMMAND_OR_CATEGORY_NAME: "Please provide a command or category name",
     COMMAND_CANNOT_DISABLED: "That command cannot be disabled",
@@ -528,7 +529,8 @@ module.exports = {
     REASON_LOCK_CHANNEL: "Please provide a reason to lock this channel",
     LOCKED_CHANNEL_REASON: "Successfully locked {channel}, Reason: **{lockReason}**",
     NO_PERMISSIONS: "Sorry, You don't have the correct permissions for this command.",
-    CURRENT_PREFIX: "Current server prefix: `{guildPrefix}`\nUse `{guildPrefix}prefix <prefix>` to set a new prefix",
+    CURRENT_PREFIX:
+      "Current server prefix: `{guildPrefix}`\nUse `{guildPrefix}prefix <prefix>` to set a new prefix",
     UPDATE_PREFIX: "Successfully updated prefix to `{prefix}`",
     MY_ROLE_MUST_BE_HIGHER: "My role must be higher than **{roleName}** role!",
     MY_ROLE_MUST_BE_HIGHER2: "My role must be higher than **{needsRoleTag}** highest role!",

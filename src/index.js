@@ -32,6 +32,7 @@ app.get("/dreams", (request, response) => {
 const listener = app.listen(process.env.PORT, () => {
   console.log("Your app is listening on port " + listener.address().port);
 });
+require("dotenv/config");
 require("./utils/checkValid")();
 require("./utils/database");
 const NekoClient = require("nekos.life");
@@ -39,7 +40,7 @@ const TnaiClient = require("tnai");
 const imdb = require("imdb-api");
 const AlexClient = require("alexflipnote.js");
 const { Collection, Client } = require("discord.js");
-const { token, imdbKey, alexflipnoteKey, dashboard, dev } = require("../config.json");
+const { imdbKey, alexflipnoteKey, dashboard, dev, debug } = require("../config.json");
 const MongoGiveawayManager = require("./modules/GiveawayManager");
 const { Player } = require("discord-player");
 const logs = require("discord-logs");
@@ -55,8 +56,10 @@ const {
   updateUserById,
   getUserById,
   formatNumber,
+  createStarboard,
 } = require("./utils/functions");
 const Logger = require("./modules/Logger");
+const MongStarboardsManager = require("./modules/StarboardsManager");
 
 const bot = new Client({
   disableMentions: "everyone",
@@ -77,6 +80,7 @@ logs(bot);
   updateUserById,
   getUserById,
   formatNumber,
+  createStarboard,
 ].forEach((func) => {
   bot[func.name] = func;
 });
@@ -104,11 +108,10 @@ Promise.config({
   longStackTraces: true,
 });
 
-const giveawayManager = new MongoGiveawayManager(bot, {
+bot.giveawayManager = new MongoGiveawayManager(bot, {
   hasGuildMembersIntent: true,
   storage: false,
   updateCountdownEvery: 10000,
-  DJSlib: "v12",
   default: {
     embedColor: "#7289DA",
     botsCanWin: false,
@@ -117,7 +120,9 @@ const giveawayManager = new MongoGiveawayManager(bot, {
   },
 });
 
-bot.giveawayManager = giveawayManager;
+bot.starboardsManager = new MongStarboardsManager(bot, {
+  storage: false,
+});
 
 require("moment-duration-format");
 require("./modules/command")(bot);
@@ -130,7 +135,11 @@ if (dev === true) {
   require("./scripts/generateCommandList")(bot);
 }
 
-bot.login(token);
+if (debug === true) {
+  bot.on("debug", console.log);
+}
+
+bot.login(process.env["DISCORD_BOT_TOKEN"]);
 
 // Unhandled errors
 process.on("unhandledRejection", (error) => sendErrorLog(bot, error, "error"));

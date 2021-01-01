@@ -7,7 +7,7 @@ module.exports = {
       {
         source: "/add",
         destination:
-          "https://discord.com/oauth2/authorize?client_id=632843197600759809&scope=bot&permissions=1945632119",
+          "https://discord.com/oauth2/authorize?client_id=740489089005912146&scope=bot&permissions=1945632119",
         permanent: true,
       },
       {

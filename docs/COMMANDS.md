@@ -1,7 +1,7 @@
 # Thunder Strike Command list
 
 This command list was automatically generated in [this file](https://github.com/koushikpuppala5/ThunderStrike_Bot/blob/master/src/scripts/generateCommandList.js).
-Thunder Strike has a total of 209 commands.
+Thunder Strike has a total of 210 commands.
 
 Click any of the command names for more information
 
@@ -295,13 +295,15 @@ Click any of the command names for more information
   ##
 ### Category: music
 
-**Total commands: 12**
+**Total commands: 13**
 
 [clearqueue:](#clearqueue) Clear the music playlist
 
 [filter:](#filter) Set or remove a filter
 
 [filters:](#filters) All music filters
+
+[lyrics:](#lyrics) Get lyrics for the currently playing song
 
 [nowplaying:](#nowplaying) Shows info about the current playing song
 
@@ -2756,6 +2758,22 @@ Click any of the command names for more information
 **Category:** music
 
 **Description:** All music filters
+
+**Usage:** `N/A`
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** N/A
+
+[Back to top](#ghostybot-command-list)
+
+## lyrics
+
+**Category:** music
+
+**Description:** Get lyrics for the currently playing song
 
 **Usage:** `N/A`
 

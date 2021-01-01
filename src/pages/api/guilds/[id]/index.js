@@ -5,7 +5,6 @@ import {
   createWebhook,
   checkAuth,
 } from "../../../../utils/functions";
-import { token } from "../../../../../config.json";
 import hiddenItems from "../../../../data/hidden-items.json";
 
 export default async function handler(req, res) {
@@ -21,14 +20,14 @@ export default async function handler(req, res) {
     case "GET": {
       const guild = await handleApiRequest(
         `/guilds/${query.id}`,
-        { type: "Bot", data: token },
+        { type: "Bot", data: process.env["DISCORD_BOT_TOKEN"] },
         "GET"
       );
       const gChannels = await handleApiRequest(
         `/guilds/${query.id}/channels`,
         {
           type: "Bot",
-          data: token,
+          data: process.env["DISCORD_BOT_TOKEN"],
         },
         "GET"
       );
@@ -73,8 +72,18 @@ export default async function handler(req, res) {
       const body = JSON.parse(req.body);
       const g = await getGuildById(query.id);
 
-      if (body.audit_channel) {
+      if (body?.audit_channel) {
         await createWebhook(req.bot, body.audit_channel, g.audit_channel);
+      }
+
+      if (body?.starboards_channel_id) {
+        if (g.starboards_channel_id) {
+          req.bot.starboardsManager.delete(g.starboards_channel_id);
+        }
+        req.bot.starboardsManager.create({
+          id: body?.starboards_channel_id,
+          guild: { id: g.guild_id },
+        });
       }
 
       await updateGuildById(query.id, body);

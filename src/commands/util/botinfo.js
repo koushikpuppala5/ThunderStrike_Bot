@@ -52,7 +52,7 @@ module.exports = {
       .addField(`${lang.UTIL.SUPPORT_SERVER}`, "[Click Here](https://discord.gg/SgCABjZ3cy)", true)
       .addField(`${lang.BOT.DASHBOARD}`, `[Click Here](${dashboardUrl})`, true)
       .setImage(
-        "https://raw.githubusercontent.com/koushikpuppala5/Powerstar_Bot/master/.github/Thunder.png"
+        "https://raw.githubusercontent.com/koushikpuppala5/ThunderStrike_Bot/master/.github/Thunder.png"
       );
 
     message.channel.send(embed);

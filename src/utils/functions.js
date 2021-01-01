@@ -438,7 +438,9 @@ function escapeMarkdown(m) {
  * @param {import("discord.js").Guild} guild
  */
 async function findOrCreateMutedRole(guild) {
+  const { muted_role_id } = await getGuildById(guild.id);
   return (
+    guild.roles.cache.find((r) => r.id === muted_role_id) ||
     guild.roles.cache.find((r) => r.name === "muted") ||
     (await guild.roles.create({
       data: {
@@ -462,6 +464,18 @@ function updateMuteChannelPerms(guild, memberId, perms) {
       Logger.error("mute_user", e?.stack || e);
     });
   });
+}
+
+/**
+ *
+ * @param {import("discord.js").Client} bot
+ * @param {import("discord.js").Channel} channel
+ */
+function createStarboard(bot, channel, deleteOld) {
+  if (deleteOld) {
+    bot.starboardsManager.delete(deleteOld);
+  }
+  bot.starboardsManager.create(channel);
 }
 
 /* DASHBOARD FUNCTIONS */
@@ -554,5 +568,6 @@ module.exports = {
   findOrCreateMutedRole,
   updateMuteChannelPerms,
   checkAuth,
-  formatNumber
+  formatNumber,
+  createStarboard,
 };

@@ -2,7 +2,7 @@
 
 **Only required if self-hosted/wanting to contribute**
 
-[Invite Thunder Strike here](https://discord.com/oauth2/authorize?client_id=632843197600759809&scope=bot&permissions=1945632119)
+[Invite Thunder Strike here](https://discord.com/oauth2/authorize?client_id=740489089005912146&scope=bot&permissions=1945632119)
 
 How to install Thunder Strike on your machine
 
@@ -26,19 +26,24 @@ These api keys are not required for the bot to function. Only required for their
 
 ## config
 
+### .env
+
+- `DISCORD_CLIENT_ID`: the client id of your discord bot application
+- `DISCORD_CLIENT_SECRET`: the client secret of your discord bot application
+- `DISCORD_BOT_TOKEN`: Your bot token
+- `MONGO_DB_URI`: your mongoDb uri
+
+### config.json
+
 - `dev`: development (`true`) or production (`false`)
 - `JwtSecret`: this value can be anything, make sure it's long
 - `owners`: An array of owner ids
-- `clientId`: the client id of your discord bot application
-- `clientSecret`: the client secret of your discord bot application
 - `callbackUrl`: This is the url to authenticate with discord, this is required to be: `YOUR_URL + /api/auth/callback`
   `dashboardUrl`: the URL to your dashboard
-- `token`: Your bot token
 - `reportsChannelId`: used for the `bugreport` command. All bug reports will be send to that channel
 - `openWeatherMapKey`: used for the `weather` command
 - `feedbackChannelId`: used for the `feedback` command. All feedback will be send to that channel
 - `imdbKey`: your imdb key for the `imdb` command
-- `mongodbUri`: your mongoDb uri
 - `giphyApiKey`: your Giphy api key, used for the `giphy` command
 - `errorLogsChannelId`: the channel id for errors
 - `alexflipnoteKey`: required for the `supreme` command
