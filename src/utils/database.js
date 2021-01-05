@@ -2,7 +2,7 @@ const { connect, connection } = require("mongoose");
 const Logger = require("../modules/Logger");
 
 (async function database() {
-  const uri = process.env["MONGO_DB_URI"];
+  const uri = process.env.MONGO_DB_URI;
 
   try {
     await connect(uri, {
