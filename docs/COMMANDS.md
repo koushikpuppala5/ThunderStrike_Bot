@@ -1,7 +1,7 @@
-# Thunder Strike Command list
+# GhostyBot Command list
 
-This command list was automatically generated in [this file](https://github.com/koushikpuppala5/ThunderStrike_Bot/blob/master/src/scripts/generateCommandList.js).
-Thunder Strike has a total of 210 commands.
+This command list was automatically generated in [this file](https://github.com/Dev-CasperTheGhost/ghostybot/tree/main/src/scripts/generateCommandList.js).
+GhostyBot has a total of 215 commands.
 
 Click any of the command names for more information
 
@@ -10,7 +10,7 @@ Click any of the command names for more information
 
 ### Category: admin
 
-**Total commands: 36**
+**Total commands: 35**
 
 [addcmd:](#addcmd) add guild custom commands
 
@@ -46,15 +46,13 @@ Click any of the command names for more information
 
 [removerole:](#removerole) Remove a role from a user
 
-[removeroleall:](#removeroleall) remove a role from all user of the current server
+[removeroleall:](#removeroleall) remove a role from all users of the current server
 
 [removeuserwarns:](#removeuserwarns) Remove all warns from a user
 
 [say:](#say) Let the bot say something
 
-[set:](#set) Set a default channel
-
-[setwelcomemsg:](#setwelcomemsg) Sets the welcome msg
+[set:](#set) N/A
 
 [stealemoji:](#stealemoji) Steal an emoji from a different server
 
@@ -70,7 +68,7 @@ Click any of the command names for more information
 
 [unmute:](#unmute) Unmute a user
 
-[unset:](#unset) Unset/disable an option
+[unset:](#unset) N/A
 
 [unsticky:](#unsticky) Sticky a message to the bottom of the screen
 
@@ -175,7 +173,7 @@ Click any of the command names for more information
   ##
 ### Category: games
 
-**Total commands: 20**
+**Total commands: 18**
 
 [8ball:](#8ball) 8Ball
 
@@ -195,8 +193,6 @@ Click any of the command names for more information
 
 [flipcoin:](#flipcoin) Flip a coin
 
-[foodporn:](#foodporn) Shows Food images
-
 [happiness:](#happiness) Get a happiness returned
 
 [iq:](#iq) Get a random Iq returned
@@ -204,8 +200,6 @@ Click any of the command names for more information
 [lmgtfy:](#lmgtfy) Let me google that for you
 
 [meme:](#meme) Returns a meme
-
-[ping:](#ping) pong!
 
 [randomjoke:](#randomjoke) returns a random joke
 
@@ -235,7 +229,7 @@ Click any of the command names for more information
   ##
 ### Category: image
 
-**Total commands: 20**
+**Total commands: 23**
 
 [amazeme:](#amazeme) Shows interesting images or facts
 
@@ -251,11 +245,15 @@ Click any of the command names for more information
 
 [feed:](#feed) feed somebody
 
+[foodporn:](#foodporn) Shows Food images
+
 [giphy:](#giphy) Return a giphy image
 
 [hug:](#hug) Shows a picture of people hugging
 
 [imgfy:](#imgfy) text to image converter xD
+
+[invert:](#invert) Invert your avatar
 
 [kiss:](#kiss) Shows a picture of people kissing
 
@@ -272,6 +270,8 @@ Click any of the command names for more information
 [smug:](#smug) Smug
 
 [supreme:](#supreme) Display custom text as the Supreme logo
+
+[trash:](#trash) Put someone in the trash bin someone
 
 [tweet:](#tweet) Returns an image with your tweet
 
@@ -290,12 +290,14 @@ Click any of the command names for more information
 
 [resetxp:](#resetxp) reset all users xp for current server
 
-[xp:](#xp) Get Xp from mentioned user or yourself
+[xp:](#xp) Get xp from a user or yourself
 
   ##
 ### Category: music
 
-**Total commands: 13**
+**Total commands: 16**
+
+[back:](#back) Play back the previous song
 
 [clearqueue:](#clearqueue) Clear the music playlist
 
@@ -303,7 +305,9 @@ Click any of the command names for more information
 
 [filters:](#filters) All music filters
 
-[lyrics:](#lyrics) Get lyrics for the currently playing song
+[loop:](#loop) Loop a song that is playing
+
+[lyrics:](#lyrics) Get lyrics for the song
 
 [nowplaying:](#nowplaying) Shows info about the current playing song
 
@@ -312,6 +316,8 @@ Click any of the command names for more information
 [play:](#play) Play a song
 
 [queue:](#queue) Show top 20 songs in the queue
+
+[remove:](#remove) Remove a song from the queue
 
 [resume:](#resume) Resume a song that was playing
 
@@ -351,7 +357,7 @@ Click any of the command names for more information
   ##
 ### Category: util
 
-**Total commands: 42**
+**Total commands: 46**
 
 [afk:](#afk) N/A
 
@@ -369,13 +375,19 @@ Click any of the command names for more information
 
 [channels:](#channels) Shows all channels in the server
 
+[country:](#country) Get information about a country
+
 [covid:](#covid) Get covid 19 information
 
 [define:](#define) Define a word
 
 [dependencies:](#dependencies) Shows a list of all bots dependencies
 
+[discordstatus:](#discordstatus) Returns the current status of Discord
+
 [docs:](#docs) Returns the request query from discord.js docs
+
+[emojiinfo:](#emojiinfo) Returns information about a custom emoji
 
 [emojis:](#emojis) Get a random color
 
@@ -389,11 +401,13 @@ Click any of the command names for more information
 
 [help:](#help) Shows all commands Or shows more info about a command
 
-[image:](#image) Search any image you want from google
+[randomimage:](#randomimage) Search any image you want from google
 
 [imdb:](#imdb) Get the information about series and movie
 
 [invite:](#invite) Creates an instant invite for the server
+
+[ip:](#ip) Search an IP
 
 [membercount:](#membercount) N/A
 
@@ -421,8 +435,6 @@ Click any of the command names for more information
 
 [skin:](#skin) Search for skins from Minecraft
 
-[spotify:](#spotify) Shows status of users
-
 [suggest:](#suggest) Create a suggestion
 
 [translate:](#translate) Translate a sentence
@@ -432,6 +444,8 @@ Click any of the command names for more information
 [userinfo:](#userinfo) Get user info
 
 [weather:](#weather) See the weather in a country/city
+
+[web:](#web) Returns a screenshot of the requested website
 
 [wiki:](#wiki) Search something up on Wikipedia
 
@@ -453,17 +467,13 @@ Click any of the command names for more information
   ##
 ### Category: botowner
 
-**Total commands: 6**
+**Total commands: 4**
 
 [blacklist:](#blacklist) Remove/add blacklist from a user
 
 [eval:](#eval) Eval
 
 [leaveguild:](#leaveguild) Leaves a guid by the provided Id
-
-[nickname:](#nickname) Set the bot's nick name in a guild
-
-[reload:](#reload) Reloads a command
 
 [shutdown:](#shutdown) Shuts the bot down
 
@@ -517,13 +527,15 @@ Click any of the command names for more information
 
 **Description:** add guild custom commands
 
-**Usage:** `addcmd <cmd_name> <cmd_response>`
+**Usage:** `<cmd_name> <cmd_response>`
+
+**Aliases:** N/A
 
 **Member Permissions:** ADMINISTRATOR
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `command name`, `command response`
+**Required Arguments:** `command name(string)`, `command response(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -533,13 +545,15 @@ Click any of the command names for more information
 
 **Description:** Add a role to a user
 
-**Usage:** `N/A`
+**Usage:** `<member> <role>`
+
+**Aliases:** `ar`,`arole`,`giverole`
 
 **Member Permissions:** SEND_MESSAGES, MANAGE_ROLES, ADMINISTRATOR
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_ROLES
 
-**Required Arguments:** `member`, `role`
+**Required Arguments:** `member(string)`, `role(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -549,13 +563,15 @@ Click any of the command names for more information
 
 **Description:** Add a role to all user of the current server
 
-**Usage:** `N/A`
+**Usage:** `<role>`
+
+**Aliases:** `arall`,`aroleall`,`giveroleall`
 
 **Member Permissions:** MANAGE_ROLES, ADMINISTRATOR
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_ROLES
 
-**Required Arguments:** `role`
+**Required Arguments:** `role(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -565,7 +581,9 @@ Click any of the command names for more information
 
 **Description:** Announce something in a channel
 
-**Usage:** `announce <channel> <text>`
+**Usage:** `[channel] <text>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_MESSAGES
 
@@ -581,13 +599,15 @@ Click any of the command names for more information
 
 **Description:** ban
 
-**Usage:** `N/A`
+**Usage:** `<user>`
+
+**Aliases:** N/A
 
 **Member Permissions:** BAN_MEMBERS
 
 **Bot Permissions:** SEND_MESSAGES, BAN_MEMBERS
 
-**Required Arguments:** N/A
+**Required Arguments:** `user(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -597,13 +617,15 @@ Click any of the command names for more information
 
 **Description:** Add/remove blacklisted words
 
-**Usage:** `N/A`
+**Usage:** `<option> [word]`
+
+**Aliases:** `wordsfilter`,`filterwords`,`blacklistedword`
 
 **Member Permissions:** ADMINISTRATOR
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `option(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -614,6 +636,8 @@ Click any of the command names for more information
 **Description:** Returns the config
 
 **Usage:** `N/A`
+
+**Aliases:** `conf`,`cfg`
 
 **Member Permissions:** None
 
@@ -629,13 +653,15 @@ Click any of the command names for more information
 
 **Description:** This command creates a role with the name of what you say
 
-**Usage:** `N/A`
+**Usage:** `<role_name>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_ROLES
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_ROLES
 
-**Required Arguments:** `role name`
+**Required Arguments:** `role name(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -645,7 +671,9 @@ Click any of the command names for more information
 
 **Description:** Update the channel topic
 
-**Usage:** `N/A`
+**Usage:** `<channel> <topic>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_CHANNELS
 
@@ -663,11 +691,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** DEAFEN_MEMBERS
 
 **Bot Permissions:** SEND_MESSAGES, DEAFEN_MEMBERS
 
-**Required Arguments:** `member`, `reason`
+**Required Arguments:** `member(string)`, `reason(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -677,13 +707,15 @@ Click any of the command names for more information
 
 **Description:** Delete the custom commannd
 
-**Usage:** `delcmd <cmd_name>`
+**Usage:** `<cmd_name>`
+
+**Aliases:** `removecmd`
 
 **Member Permissions:** ADMINISTRATOR
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `command name`
+**Required Arguments:** `command name(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -693,13 +725,15 @@ Click any of the command names for more information
 
 **Description:** Delete message, up to 100
 
-**Usage:** `delete <1-100>`
+**Usage:** `<1-100>`
+
+**Aliases:** `purge`,`clear`
 
 **Member Permissions:** MANAGE_MESSAGES
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_MESSAGES
 
-**Required Arguments:** `amount`
+**Required Arguments:** `amount(number)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -711,11 +745,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** ADMINISTRATOR
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `command name | category name`
+**Required Arguments:** `command name | category name(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -727,11 +763,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** ADMINISTRATOR
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `command name | category name`
+**Required Arguments:** `command name | category name(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -741,7 +779,9 @@ Click any of the command names for more information
 
 **Description:** Add/remove ignored channels
 
-**Usage:** `set <option> <channel>`
+**Usage:** `<option> <channel>`
+
+**Aliases:** `igch`,`ic`
 
 **Member Permissions:** ADMINISTRATOR
 
@@ -759,6 +799,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** KICK_MEMBERS
 
 **Bot Permissions:** SEND_MESSAGES, KICK_MEMBERS
@@ -775,11 +817,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** MANAGE_CHANNELS
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_CHANNELS
 
-**Required Arguments:** N/A
+**Required Arguments:** `reason(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -789,7 +833,9 @@ Click any of the command names for more information
 
 **Description:** Mute a user
 
-**Usage:** `mute <@user>`
+**Usage:** `<@user>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_ROLES
 
@@ -805,7 +851,9 @@ Click any of the command names for more information
 
 **Description:** Nuke the current channel, delete all messages of the channel
 
-**Usage:** `nuke`
+**Usage:** `N/A`
+
+**Aliases:** `channelnuke`
 
 **Member Permissions:** MANAGE_CHANNELS
 
@@ -823,7 +871,9 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
-**Member Permissions:** None
+**Aliases:** N/A
+
+**Member Permissions:** MANAGE_GUILD
 
 **Bot Permissions:** SEND_MESSAGES
 
@@ -839,11 +889,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `rr`,`rrole`,`takerole`
+
 **Member Permissions:** MANAGE_ROLES
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_ROLES
 
-**Required Arguments:** `member`, `role`
+**Required Arguments:** `member(string)`, `role(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -851,15 +903,17 @@ Click any of the command names for more information
 
 **Category:** admin
 
-**Description:** remove a role from all user of the current server
+**Description:** remove a role from all users of the current server
 
 **Usage:** `N/A`
+
+**Aliases:** `rrall`,`rroleall`,`takeroleall`
 
 **Member Permissions:** MANAGE_ROLES
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_ROLES
 
-**Required Arguments:** `role`
+**Required Arguments:** `role(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -871,11 +925,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
-**Member Permissions:** None
+**Aliases:** N/A
+
+**Member Permissions:** MANAGE_GUILD
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `member`
+**Required Arguments:** `member(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -887,11 +943,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
-**Member Permissions:** ADMINISTRATOR
+**Aliases:** N/A
+
+**Member Permissions:** MANAGE_MESSAGES
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text | type(embed)(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -899,27 +957,13 @@ Click any of the command names for more information
 
 **Category:** admin
 
-**Description:** Set a default channel
-
-**Usage:** `set <option> <channel>`
-
-**Member Permissions:** ADMINISTRATOR
-
-**Bot Permissions:** SEND_MESSAGES
-
-**Required Arguments:** N/A
-
-[Back to top](#ghostybot-command-list)
-
-## setwelcomemsg
-
-**Category:** admin
-
-**Description:** Sets the welcome msg
+**Description:** N/A
 
 **Usage:** `N/A`
 
-**Member Permissions:** ADMINISTRATOR
+**Aliases:** N/A
+
+**Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
@@ -933,13 +977,15 @@ Click any of the command names for more information
 
 **Description:** Steal an emoji from a different server
 
-**Usage:** `stealemoji <emoji> <custom name>`
+**Usage:** `<emoji> [custom name]`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_EMOJIS
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_EMOJIS
 
-**Required Arguments:** N/A
+**Required Arguments:** `emoji(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -951,11 +997,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** MANAGE_MESSAGES
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_MESSAGES
 
-**Required Arguments:** `message`
+**Required Arguments:** `message(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -965,13 +1013,15 @@ Click any of the command names for more information
 
 **Description:** Temporary mute someone
 
-**Usage:** `tempmute <user> <time> <reason>`
+**Usage:** `<user> <time> <reason>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_ROLES
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_ROLES, MANAGE_CHANNELS
 
-**Required Arguments:** N/A
+**Required Arguments:** `user(string)`, `time(time)`, `reason(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -983,11 +1033,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** BAN_MEMBERS
 
 **Bot Permissions:** SEND_MESSAGES, BAN_MEMBERS
 
-**Required Arguments:** `member_id`
+**Required Arguments:** `member_id(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -998,6 +1050,8 @@ Click any of the command names for more information
 **Description:** Undeafen a user from voice channel
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** DEAFEN_MEMBERS
 
@@ -1013,7 +1067,9 @@ Click any of the command names for more information
 
 **Description:** Unlock A channel
 
-**Usage:** `unlockchannel <channel mention | current channel>`
+**Usage:** `<channel mention | current channel>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_CHANNELS
 
@@ -1029,13 +1085,15 @@ Click any of the command names for more information
 
 **Description:** Unmute a user
 
-**Usage:** `unmute <@user>`
+**Usage:** `<@user>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_ROLES, MANAGE_CHANNELS
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_ROLES
 
-**Required Arguments:** N/A
+**Required Arguments:** `user(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1043,11 +1101,13 @@ Click any of the command names for more information
 
 **Category:** admin
 
-**Description:** Unset/disable an option
+**Description:** N/A
 
-**Usage:** `unset <option>`
+**Usage:** `N/A`
 
-**Member Permissions:** ADMINISTRATOR
+**Aliases:** N/A
+
+**Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
@@ -1063,6 +1123,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `removesticky`
+
 **Member Permissions:** MANAGE_MESSAGES
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_MESSAGES, ADMINISTRATOR
@@ -1077,13 +1139,15 @@ Click any of the command names for more information
 
 **Description:** voicekick or disconnect a user from a voice channel
 
-**Usage:** `N/A`
+**Usage:** `<user>`
+
+**Aliases:** `disconnect`
 
 **Member Permissions:** MOVE_MEMBERS
 
 **Bot Permissions:** SEND_MESSAGES, MOVE_MEMBERS
 
-**Required Arguments:** N/A
+**Required Arguments:** `user(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1093,13 +1157,15 @@ Click any of the command names for more information
 
 **Description:** voicemute a user
 
-**Usage:** `N/A`
+**Usage:** `<user>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MUTE_MEMBERS
 
 **Bot Permissions:** SEND_MESSAGES, MUTE_MEMBERS
 
-**Required Arguments:** N/A
+**Required Arguments:** `user(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1109,13 +1175,15 @@ Click any of the command names for more information
 
 **Description:** unmute a user from voice channel
 
-**Usage:** `N/A`
+**Usage:** `<user>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MUTE_MEMBERS
 
 **Bot Permissions:** SEND_MESSAGES, MUTE_MEMBERS
 
-**Required Arguments:** N/A
+**Required Arguments:** `user(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1125,13 +1193,15 @@ Click any of the command names for more information
 
 **Description:** Warns a user
 
-**Usage:** `N/A`
+**Usage:** `<user>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_GUILD
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `user(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1141,13 +1211,15 @@ Click any of the command names for more information
 
 **Description:** Returns how many warnings a user has
 
-**Usage:** `N/A`
+**Usage:** `<user>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `user(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1158,6 +1230,8 @@ Click any of the command names for more information
 **Description:** Shows a picture of a alpaca
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1175,6 +1249,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1190,6 +1266,8 @@ Click any of the command names for more information
 **Description:** Returns an image of a bird
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1207,6 +1285,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1222,6 +1302,8 @@ Click any of the command names for more information
 **Description:** Shows a picture of a camel
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1239,6 +1321,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1254,6 +1338,8 @@ Click any of the command names for more information
 **Description:** Returns a cat fact
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1271,6 +1357,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1285,13 +1373,15 @@ Click any of the command names for more information
 
 **Description:** Let a cow say something
 
-**Usage:** `N/A`
+**Usage:** `<text>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1302,6 +1392,8 @@ Click any of the command names for more information
 **Description:** Shows a picture of a dog
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1319,6 +1411,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1334,6 +1428,8 @@ Click any of the command names for more information
 **Description:** Shows a picture of a duck
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1351,6 +1447,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1366,6 +1464,8 @@ Click any of the command names for more information
 **Description:** Shows a random picture of koala
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1383,6 +1483,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1398,6 +1500,8 @@ Click any of the command names for more information
 **Description:** Shows a picture of a llama
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1415,6 +1519,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1430,6 +1536,8 @@ Click any of the command names for more information
 **Description:** Shows a picture of a panda
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1447,6 +1555,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1462,6 +1572,8 @@ Click any of the command names for more information
 **Description:** Returns an image of a shibe
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1479,6 +1591,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1493,7 +1607,9 @@ Click any of the command names for more information
 
 **Description:** Remove/add blacklist from a user
 
-**Usage:** `blacklist <option> <level> <user>`
+**Usage:** `<option> <level> <user>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1511,11 +1627,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `e`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1527,37 +1645,7 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
-**Member Permissions:** None
-
-**Bot Permissions:** SEND_MESSAGES
-
-**Required Arguments:** N/A
-
-[Back to top](#ghostybot-command-list)
-
-## nickname
-
-**Category:** botowner
-
-**Description:** Set the bot's nick name in a guild
-
-**Usage:** `N/A`
-
-**Member Permissions:** None
-
-**Bot Permissions:** SEND_MESSAGES
-
-**Required Arguments:** N/A
-
-[Back to top](#ghostybot-command-list)
-
-## reload
-
-**Category:** botowner
-
-**Description:** Reloads a command
-
-**Usage:** `N/A`
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1575,6 +1663,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1591,11 +1681,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** MANAGE_GUILD
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `member`, `amount`
+**Required Arguments:** `member(string)`, `amount(number)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1606,6 +1698,8 @@ Click any of the command names for more information
 **Description:** balance
 
 **Usage:** `N/A`
+
+**Aliases:** `bal`
 
 **Member Permissions:** None
 
@@ -1621,13 +1715,15 @@ Click any of the command names for more information
 
 **Description:** Buy an item from the store
 
-**Usage:** `buy <item name>`
+**Usage:** `<item name>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `item name`
+**Required Arguments:** `item name(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1638,6 +1734,8 @@ Click any of the command names for more information
 **Description:** daily
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1653,13 +1751,15 @@ Click any of the command names for more information
 
 **Description:** deposit money to your bank
 
-**Usage:** `!deposit <all | amount>`
+**Usage:** `<all | amount>`
+
+**Aliases:** `dep`
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `amount`
+**Required Arguments:** `amount(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1670,6 +1770,8 @@ Click any of the command names for more information
 **Description:** Roll a dice
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1685,7 +1787,9 @@ Click any of the command names for more information
 
 **Description:** View your or a user inventory
 
-**Usage:** `inventory <user>`
+**Usage:** `<user>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1703,6 +1807,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `mlb`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1717,13 +1823,15 @@ Click any of the command names for more information
 
 **Description:** Give money to a user
 
-**Usage:** `N/A`
+**Usage:** `<member>, <amount>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `member`, `amount`
+**Required Arguments:** `member(string)`, `amount(number)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1734,6 +1842,8 @@ Click any of the command names for more information
 **Description:** See the full profile of a user
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1751,11 +1861,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** MANAGE_GUILD
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `member`, `amount`
+**Required Arguments:** `member(string)`, `amount(number)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1766,6 +1878,8 @@ Click any of the command names for more information
 **Description:** Reset all money/bank in this guild
 
 **Usage:** `N/A`
+
+**Aliases:** `reset-economy`
 
 **Member Permissions:** MANAGE_GUILD
 
@@ -1783,11 +1897,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `member`, `amount`
+**Required Arguments:** `member(string)`, `amount(number)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1797,7 +1913,9 @@ Click any of the command names for more information
 
 **Description:** Slots machine
 
-**Usage:** `slots <amount>`
+**Usage:** `<amount>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1813,7 +1931,9 @@ Click any of the command names for more information
 
 **Description:** View the store/shop to buy something
 
-**Usage:** `store <option | no-args>`
+**Usage:** `<option | no-args>`
+
+**Aliases:** `shop`
 
 **Member Permissions:** None
 
@@ -1831,6 +1951,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -1845,13 +1967,15 @@ Click any of the command names for more information
 
 **Description:** Withdraw money to your bank
 
-**Usage:** `withdraw <all | amount>`
+**Usage:** `<all | amount>`
+
+**Aliases:** `with`
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `amount`
+**Required Arguments:** `amount(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1862,6 +1986,8 @@ Click any of the command names for more information
 **Description:** work
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1879,11 +2005,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1894,6 +2022,8 @@ Click any of the command names for more information
 **Description:** Gives you advice
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1911,11 +2041,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1926,6 +2058,8 @@ Click any of the command names for more information
 **Description:** Bet on somebody
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1943,11 +2077,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1959,11 +2095,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `math`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `calculation(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -1974,6 +2112,8 @@ Click any of the command names for more information
 **Description:** Get a compliment
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -1991,6 +2131,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2007,21 +2149,7 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
-**Member Permissions:** None
-
-**Bot Permissions:** SEND_MESSAGES
-
-**Required Arguments:** N/A
-
-[Back to top](#ghostybot-command-list)
-
-## foodporn
-
-**Category:** games
-
-**Description:** Shows Food images
-
-**Usage:** `N/A`
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2039,6 +2167,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2055,6 +2185,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2069,13 +2201,15 @@ Click any of the command names for more information
 
 **Description:** Let me google that for you
 
-**Usage:** `lmgtfy <search query>`
+**Usage:** `<search query>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `query(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2087,21 +2221,7 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
-**Member Permissions:** None
-
-**Bot Permissions:** SEND_MESSAGES
-
-**Required Arguments:** N/A
-
-[Back to top](#ghostybot-command-list)
-
-## ping
-
-**Category:** games
-
-**Description:** pong!
-
-**Usage:** `N/A`
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2119,6 +2239,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `joke`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2135,6 +2257,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `number`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2149,13 +2273,15 @@ Click any of the command names for more information
 
 **Description:** Rock Paper Scissors
 
-**Usage:** `rps <rock | paper | scissors>`
+**Usage:** `<rock | paper | scissors>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `rock | paper | scissors`
+**Required Arguments:** `rock | paper | scissors(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2167,11 +2293,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `ttt`,`tttoe`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `member`
+**Required Arguments:** `member(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2182,6 +2310,8 @@ Click any of the command names for more information
 **Description:** Would you rather
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2200,11 +2330,13 @@ Click any of the command names for more information
 **Usage:** `givend <messageId> 
  **Example:** !giveaway end <messageId>`
 
+**Aliases:** `gend`
+
 **Member Permissions:** MANAGE_GUILD
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `messageId(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2216,11 +2348,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `greroll`
+
 **Member Permissions:** MANAGE_GUILD
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `messageId(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2230,14 +2364,16 @@ Click any of the command names for more information
 
 **Description:** Starts a giveaway
 
-**Usage:** `givstart <time> <winner count> <price>
+**Usage:** `<time> <winner count> <price>
  **Example:** !givstart 2d 10 Discord nitro`
+
+**Aliases:** `gstart`
 
 **Member Permissions:** MANAGE_GUILD
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `time(time)`, `winnerCount(number)`, `prize(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2248,6 +2384,8 @@ Click any of the command names for more information
 **Description:** None
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2265,6 +2403,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2280,6 +2420,8 @@ Click any of the command names for more information
 **Description:** None
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2297,6 +2439,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2312,6 +2456,8 @@ Click any of the command names for more information
 **Description:** None
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2329,6 +2475,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2344,6 +2492,8 @@ Click any of the command names for more information
 **Description:** Amazing images of light and landscape
 
 **Usage:** `N/A`
+
+**Aliases:** `earthporn`
 
 **Member Permissions:** None
 
@@ -2361,6 +2511,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2377,11 +2529,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2393,11 +2547,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2408,6 +2564,8 @@ Click any of the command names for more information
 **Description:** Cuddle with somebody
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2425,6 +2583,26 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** N/A
+
+[Back to top](#ghostybot-command-list)
+
+## foodporn
+
+**Category:** image
+
+**Description:** Shows Food images
+
+**Usage:** `N/A`
+
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2441,11 +2619,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2456,6 +2636,8 @@ Click any of the command names for more information
 **Description:** Shows a picture of people hugging
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2473,6 +2655,26 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `texttoimage`
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** `text(string)`
+
+[Back to top](#ghostybot-command-list)
+
+## invert
+
+**Category:** image
+
+**Description:** Invert your avatar
+
+**Usage:** `N/A`
+
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2488,6 +2690,8 @@ Click any of the command names for more information
 **Description:** Shows a picture of people kissing
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2505,6 +2709,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2520,6 +2726,8 @@ Click any of the command names for more information
 **Description:** OwO
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2537,6 +2745,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2552,6 +2762,8 @@ Click any of the command names for more information
 **Description:** Poke somebody
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2569,6 +2781,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2584,6 +2798,8 @@ Click any of the command names for more information
 **Description:** Smug
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2601,6 +2817,26 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** `text(string)`
+
+[Back to top](#ghostybot-command-list)
+
+## trash
+
+**Category:** image
+
+**Description:** Put someone in the trash bin someone
+
+**Usage:** `N/A`
+
+**Aliases:** `delete`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2617,11 +2853,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2631,13 +2869,15 @@ Click any of the command names for more information
 
 **Description:** Returns an image with your YouTube comment
 
-**Usage:** `ytcomment <my amazing youtube comment>`
+**Usage:** `<my amazing youtube comment>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `comment`
+**Required Arguments:** `comment(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2647,13 +2887,15 @@ Click any of the command names for more information
 
 **Description:** Give someone Xp
 
-**Usage:** `givexp <user> <amount>`
+**Usage:** `<user> <amount>`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_GUILD
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `member`, `amount`
+**Required Arguments:** `member(string)`, `amount(number)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2664,6 +2906,8 @@ Click any of the command names for more information
 **Description:** Shows top 10 users with the highest amount of XP
 
 **Usage:** `N/A`
+
+**Aliases:** `lb`
 
 **Member Permissions:** None
 
@@ -2681,6 +2925,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `lvl`,`rank`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2695,7 +2941,9 @@ Click any of the command names for more information
 
 **Description:** reset all users xp for current server
 
-**Usage:** `resetxp all`
+**Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** MANAGE_GUILD
 
@@ -2709,9 +2957,29 @@ Click any of the command names for more information
 
 **Category:** levels
 
-**Description:** Get Xp from mentioned user or yourself
+**Description:** Get xp from a user or yourself
 
-**Usage:** `xp <user>`
+**Usage:** `<user>`
+
+**Aliases:** N/A
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** N/A
+
+[Back to top](#ghostybot-command-list)
+
+## back
+
+**Category:** music
+
+**Description:** Play back the previous song
+
+**Usage:** `N/A`
+
+**Aliases:** `prev`
 
 **Member Permissions:** None
 
@@ -2729,6 +2997,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `cq`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2745,11 +3015,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `option`, `filter`
+**Required Arguments:** `option(string)`, `filter(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2760,6 +3032,26 @@ Click any of the command names for more information
 **Description:** All music filters
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** N/A
+
+[Back to top](#ghostybot-command-list)
+
+## loop
+
+**Category:** music
+
+**Description:** Loop a song that is playing
+
+**Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2773,9 +3065,11 @@ Click any of the command names for more information
 
 **Category:** music
 
-**Description:** Get lyrics for the currently playing song
+**Description:** Get lyrics for the song
 
 **Usage:** `N/A`
+
+**Aliases:** `ly`
 
 **Member Permissions:** None
 
@@ -2793,6 +3087,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `np`,`currentsong`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2809,6 +3105,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2823,13 +3121,15 @@ Click any of the command names for more information
 
 **Description:** Play a song
 
-**Usage:** `play <youtube link | song name>`
+**Usage:** `<youtube link | song name>`
+
+**Aliases:** `p`
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `song`
+**Required Arguments:** `song(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2841,11 +3141,31 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `q`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
 **Required Arguments:** N/A
+
+[Back to top](#ghostybot-command-list)
+
+## remove
+
+**Category:** music
+
+**Description:** Remove a song from the queue
+
+**Usage:** `N/A`
+
+**Aliases:** 
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** `track-number(number)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -2856,6 +3176,8 @@ Click any of the command names for more information
 **Description:** Resume a song that was playing
 
 **Usage:** `N/A`
+
+**Aliases:** `r`
 
 **Member Permissions:** None
 
@@ -2873,6 +3195,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `sh`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2888,6 +3212,8 @@ Click any of the command names for more information
 **Description:** Skip a song that is playing
 
 **Usage:** `N/A`
+
+**Aliases:** `s`,`sk`
 
 **Member Permissions:** None
 
@@ -2905,6 +3231,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `leave`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2920,6 +3248,8 @@ Click any of the command names for more information
 **Description:** Set the volume between 1 to 100
 
 **Usage:** `N/A`
+
+**Aliases:** `vol`
 
 **Member Permissions:** None
 
@@ -2937,6 +3267,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2953,6 +3285,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -2967,7 +3301,9 @@ Click any of the command names for more information
 
 **Description:** N/A
 
-**Usage:** `None`
+**Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -2985,6 +3321,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -3000,6 +3338,8 @@ Click any of the command names for more information
 **Description:** None
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -3017,6 +3357,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -3032,6 +3374,8 @@ Click any of the command names for more information
 **Description:** None
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -3049,6 +3393,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -3063,7 +3409,9 @@ Click any of the command names for more information
 
 **Description:** N/A
 
-**Usage:** `None`
+**Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -3081,6 +3429,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -3095,13 +3445,15 @@ Click any of the command names for more information
 
 **Description:** Add a reaction role
 
-**Usage:** `rradd <channel_id>`
+**Usage:** `<channel_id>`
+
+**Aliases:** N/A
 
 **Member Permissions:** ADMINISTRATOR
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_ROLES, ADD_REACTIONS, MANAGE_MESSAGES
 
-**Required Arguments:** `channel_id`
+**Required Arguments:** `channel_id(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3111,13 +3463,15 @@ Click any of the command names for more information
 
 **Description:** Add a reaction role
 
-**Usage:** `rrremove <message_id>`
+**Usage:** `<message_id>`
+
+**Aliases:** `rrdel`,`rrr`,`rrdelete`
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `message_id`
+**Required Arguments:** `message_id(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3128,6 +3482,8 @@ Click any of the command names for more information
 **Description:** All your active reminders
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -3145,11 +3501,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `delreminder`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `reminder_id`
+**Required Arguments:** `reminder_id(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3159,13 +3517,15 @@ Click any of the command names for more information
 
 **Description:** Set a reminder, the bot will ping you when the timer runs out
 
-**Usage:** `setreminder <time> <message>`
+**Usage:** `<time> <message>`
+
+**Aliases:** `addreminder`,`remind`,`remindme`
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `time`, `message`
+**Required Arguments:** `time(time)`, `message(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3175,7 +3535,9 @@ Click any of the command names for more information
 
 **Description:** Closes the active ticket, use --force to force close issue
 
-**Usage:** `closeticket`
+**Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -3193,6 +3555,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES, MANAGE_CHANNELS
@@ -3208,6 +3572,8 @@ Click any of the command names for more information
 **Description:** N/A
 
 **Usage:** `N/A`
+
+**Aliases:** `setafk`,`makemeafk`
 
 **Member Permissions:** None
 
@@ -3225,6 +3591,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `av`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -3239,13 +3607,15 @@ Click any of the command names for more information
 
 **Description:** Calculate your BMI
 
-**Usage:** `bmi <weight in kilograms> <height in centimeters>`
+**Usage:** `<weight in kilograms> <height in centimeters>`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `weight`, `height`
+**Required Arguments:** `weight(number)`, `height(number)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3256,6 +3626,8 @@ Click any of the command names for more information
 **Description:** Shows info about the bot
 
 **Usage:** `N/A`
+
+**Aliases:** `bot`,`ping`
 
 **Member Permissions:** None
 
@@ -3273,6 +3645,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `botinv`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -3289,11 +3663,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `report`
+**Required Arguments:** `report(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3304,6 +3680,8 @@ Click any of the command names for more information
 **Description:** Get information about a channel
 
 **Usage:** `N/A`
+
+**Aliases:** `channel`
 
 **Member Permissions:** None
 
@@ -3321,11 +3699,31 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
 **Required Arguments:** N/A
+
+[Back to top](#ghostybot-command-list)
+
+## country
+
+**Category:** util
+
+**Description:** Get information about a country
+
+**Usage:** `<country>`
+
+**Aliases:** N/A
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** `country(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3336,6 +3734,8 @@ Click any of the command names for more information
 **Description:** Get covid 19 information
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -3353,11 +3753,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `word`
+**Required Arguments:** `word(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3368,6 +3770,26 @@ Click any of the command names for more information
 **Description:** Shows a list of all bots dependencies
 
 **Usage:** `N/A`
+
+**Aliases:** `deps`
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** N/A
+
+[Back to top](#ghostybot-command-list)
+
+## discordstatus
+
+**Category:** util
+
+**Description:** Returns the current status of Discord
+
+**Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -3385,11 +3807,31 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `query`
+**Required Arguments:** `query(string)`
+
+[Back to top](#ghostybot-command-list)
+
+## emojiinfo
+
+**Category:** util
+
+**Description:** Returns information about a custom emoji
+
+**Usage:** `N/A`
+
+**Aliases:** `emoji`
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** `emoji(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3400,6 +3842,8 @@ Click any of the command names for more information
 **Description:** Get a random color
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -3417,11 +3861,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `emoji`
+**Required Arguments:** `emoji(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3433,11 +3879,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `message`
+**Required Arguments:** `message(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3449,11 +3897,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `gh`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `username`
+**Required Arguments:** `username(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3463,13 +3913,15 @@ Click any of the command names for more information
 
 **Description:** Get a link of hastebin for your text
 
-**Usage:** `hastbin <extension (js, ts, ...)> <code>`
+**Usage:** `<extension (js, ts, ...)> <code>`
+
+**Aliases:** `haste`
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `extension`, `code`
+**Required Arguments:** `extension(string)`, `code(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3479,7 +3931,9 @@ Click any of the command names for more information
 
 **Description:** Shows all commands Or shows more info about a command
 
-**Usage:** `h <category name | command name>`
+**Usage:** `<category name | command name>`
+
+**Aliases:** `h`,`info`,`commands`
 
 **Member Permissions:** None
 
@@ -3489,7 +3943,7 @@ Click any of the command names for more information
 
 [Back to top](#ghostybot-command-list)
 
-## image
+## randomimage
 
 **Category:** util
 
@@ -3497,11 +3951,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `imagesearch`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3513,11 +3969,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `query`
+**Required Arguments:** `query(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3529,11 +3987,31 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `inv`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES, CREATE_INSTANT_INVITE
 
 **Required Arguments:** N/A
+
+[Back to top](#ghostybot-command-list)
+
+## ip
+
+**Category:** util
+
+**Description:** Search an IP
+
+**Usage:** `N/A`
+
+**Aliases:** `ip-lookup`
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** `ip(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3544,6 +4022,8 @@ Click any of the command names for more information
 **Description:** N/A
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -3561,11 +4041,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `mc`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `server-ip`
+**Required Arguments:** `server-ip(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3577,11 +4059,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `query`
+**Required Arguments:** `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3593,11 +4077,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `query`
+**Required Arguments:** `query(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3607,13 +4093,15 @@ Click any of the command names for more information
 
 **Description:** Show Playstore Application Information Of Your Given Name!
 
-**Usage:** `playstore <Application Name>`
+**Usage:** `<Application Name>`
+
+**Aliases:** `ps`
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `app`
+**Required Arguments:** `app(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3625,11 +4113,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `query`
+**Required Arguments:** `query(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3641,11 +4131,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `question`
+**Required Arguments:** `question(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3656,6 +4148,8 @@ Click any of the command names for more information
 **Description:** Get a random color
 
 **Usage:** `N/A`
+
+**Aliases:** `color`
 
 **Member Permissions:** None
 
@@ -3673,11 +4167,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `role`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `role`
+**Required Arguments:** `role(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3688,6 +4184,8 @@ Click any of the command names for more information
 **Description:** Shows all roles from the guild
 
 **Usage:** `N/A`
+
+**Aliases:** N/A
 
 **Member Permissions:** None
 
@@ -3705,6 +4203,8 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
@@ -3720,6 +4220,8 @@ Click any of the command names for more information
 **Description:** Get info about the server
 
 **Usage:** `N/A`
+
+**Aliases:** `guild`,`server`
 
 **Member Permissions:** None
 
@@ -3737,27 +4239,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
-**Member Permissions:** None
-
-**Bot Permissions:** SEND_MESSAGES
-
-**Required Arguments:** `username`
-
-[Back to top](#ghostybot-command-list)
-
-## spotify
-
-**Category:** util
-
-**Description:** Shows status of users
-
-**Usage:** `N/A`
+**Aliases:** `minecraftskin`
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** N/A
+**Required Arguments:** `username(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3769,11 +4257,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `suggestion`
+**Required Arguments:** `suggestion(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3783,13 +4273,15 @@ Click any of the command names for more information
 
 **Description:** Translate a sentence
 
-**Usage:** `!translate <language> <sentence>`
+**Usage:** `<language> <sentence>`
+
+**Aliases:** `tr`
 
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `language`, `sentence`
+**Required Arguments:** `language(string)`, `text(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3800,6 +4292,8 @@ Click any of the command names for more information
 **Description:** Returns the uptime of the bot
 
 **Usage:** `N/A`
+
+**Aliases:** `up`
 
 **Member Permissions:** None
 
@@ -3815,7 +4309,9 @@ Click any of the command names for more information
 
 **Description:** Get user info
 
-**Usage:** `!userinfo <user>`
+**Usage:** `<user>`
+
+**Aliases:** `whois`,`user`,`u`
 
 **Member Permissions:** None
 
@@ -3833,11 +4329,31 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** N/A
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `country/city`
+**Required Arguments:** `country/city(string)`
+
+[Back to top](#ghostybot-command-list)
+
+## web
+
+**Category:** util
+
+**Description:** Returns a screenshot of the requested website
+
+**Usage:** `<url EG: https://google.com >`
+
+**Aliases:** `screenshot`,`webscreenshot`
+
+**Member Permissions:** None
+
+**Bot Permissions:** SEND_MESSAGES
+
+**Required Arguments:** `url(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3849,11 +4365,13 @@ Click any of the command names for more information
 
 **Usage:** `N/A`
 
+**Aliases:** `wikipediasearch`,`wikipedia`
+
 **Member Permissions:** None
 
 **Bot Permissions:** SEND_MESSAGES
 
-**Required Arguments:** `query`
+**Required Arguments:** `query(string)`
 
 [Back to top](#ghostybot-command-list)
 
@@ -3864,6 +4382,8 @@ Click any of the command names for more information
 **Description:** Shows the time from other countries
 
 **Usage:** `N/A`
+
+**Aliases:** `clock`,`timezones`,`time`
 
 **Member Permissions:** None
 

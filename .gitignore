@@ -4,3 +4,5 @@ build/
 .next/
 .env
 .DS_STORE
+.vscode/
+giveaways.json

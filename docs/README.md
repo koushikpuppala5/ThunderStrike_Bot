@@ -1,4 +1,4 @@
-# Thunder Strike Docs - Index
+# GhostyBot Docs - Index
 
 - [Add translation](TRANSLATE.md)
 - [Installation](INSTALLATION.md)
@@ -14,9 +14,9 @@
 
 # Links
 
-[![Add Thunder Strike](../.github/add-to-discord.png)](https://discord.com/oauth2/authorize?client_id=632843197600759809&scope=bot&permissions=1945632119)
-[![Thunder Strike Support server](../.github/join-support-server.png)](https://discord.gg/SgCABjZ3cy)
+[![Add ghostybot](../.github/add-to-discord.png)](https://discord.com/oauth2/authorize?client_id=632843197600759809&scope=bot&permissions=8)
+[![Ghostybot Support server](../.github/join-support-server.png)](https://discord.gg/XxHrtkA)
 
 ##
 
-[Return to Readme](https://github.com/koushikpuppala5/ThunderStrike_Bot)
+[Return to Readme](https://github.com/dev-caspertheghost/ghostybot)

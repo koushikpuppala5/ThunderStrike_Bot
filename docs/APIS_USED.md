@@ -1,6 +1,6 @@
 # API's used
 
-these are the api url's that Thunder Strike uses. (Last updated May, 23 2020)
+these are the api url's that ghostybot uses. (Last updated Oct. 31 2020)
 
 | Command      | URL                                                                                                                                                                                                                            |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
